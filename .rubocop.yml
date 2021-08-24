@@ -1,0 +1,21 @@
+# стандартный конфиг для спеков
+require: rubocop-rspec
+
+Metrics/LineLength:
+  Max: 100
+
+# кол-во expect в блоке it или specify
+RSpec/MultipleExpectations:
+  Max: 5
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/RescueStandardError:
+  Enabled: false
+
+Style/AsciiComments:
+  Enabled: false
